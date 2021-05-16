@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+
+
+body{
+  overflow-x: hidden;
+  padding-top: 103px;
+
+}
+
+.nav-link{
+  transition: all 0.3s !important;
+}
+
+.nav-link:hover{
+  transform: translateY(-3px);
+  color: #eeab45 !important;
+}
+
+#Header .for-img{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/hero_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* #Header .for-font{
+  font-size: 3.5rem;
+  font-weight: 700;
+} */
+
+#Header .for-font{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1;
+    
+}
+
+
+
+/* trip */
+
+#Tripsection .content{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 75%;
+  left: 28%;
+}
+
+#Tripsection .for-btn{
+  border-radius: 25px;
+  padding: 6px 20px;
+}
+
+/* trip2 */
+#Tripsection2{
+  background-image: linear-gradient(rgba(182, 180, 45, 0.308), rgba(190, 188, 41, 0.308)), 
+  url("./images/hero_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* Customer */
+
+
+
+#Customer .para{
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+
+
+/* general classes */
+
+.for-color{
+  color: #EFBA6C;
+}
+
+.for-color:hover{
+  transform: translate(-3px);
+  color: #eeab45;
+}
+
+.for-bg{
+  background-color: #EFBA6C;
+  transition: all 0.7s !important;
+}
+
+.for-bg:hover{
+  transform: translateY(-3px);
+  background-color: #eeab45 !important;
+}
+
+.for-trip-btn{
+   font-weight: 400 !important;
+  /* margin-top: 440px !important; */
+  color: white !important;
+}
+
+small{
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
+  color: #EFBA6C;
+
+}
+
+h4{
+  font-family: "Work Sans, sans-serif"; 
+  font-size: xx-large !important;
+}
+
+/* .lst-btn{
+  margin-top: 200px;
+  padding: 300px !important;
+} */
+
+
+
+
+/* footer */
+
+#Footer .for-footer{
+  background-color: whitesmoke;
+  height: 80vh;
+}
+
+#Footer .footer-li{
+  cursor: pointer;
+  color: #EFBA6C;
+}
+
+#Footer .footer-li:hover{
+  color: #eeab45;
+}
+
+
+@media (max-width: 529px) { 
+  #Tripsection .content{
+    top: 74%;
+    left: 25%;
+  }
+
+  #Customer .para{
+    line-height: 1.1;
+    font-size: 1rem;
+    font-weight: 400;
+    
+  }
+
+  #Customer .cus-img{
+    max-width: 170%;
+    transform: translateX(-15px);
+  
+  }
+
+  #Customer .cus-pad{
+    padding-right: 1rem !important;
+  
+  }
+
+  #Footer .for-footer{
+    height: 160vh !important;
+  }
+
+  #Footer .for-insta-img{
+    width: 90px;
+    height: 90px;
+  }
+
+ }
+
+@media (min-width: 530px) and (max-width: 575.98px) { 
+  #Tripsection .content{
+    top: 80%;
+    left: 34%;
+  }
+
+  #Footer .for-insta-img{
+    width: 120px;
+    height: 120px;
+  }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #Tripsection .content{
+    top: 82%;
+    left: 34%;
+  }
+
+  #Footer .for-insta-img{
+    width: 120px;
+    height: 120px;
+  }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #Tripsection .content{
+    top: 84%;
+    left: 38%;
+  }
+
+  #Footer .for-insta-img{
+    width: 120px;
+    height: 120px;
+  }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+  #Tripsection .content{
+    top: 71%;
+    left: 24%;
+  }
+  }
+
+@media(max-width: 991.98px){
+
+ 
+
+  #Footer .for-footer{
+    background-color: whitesmoke;
+    height: 140vh;
+  }
+
+
+ 
+}
+
+
+
